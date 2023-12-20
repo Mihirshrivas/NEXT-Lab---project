@@ -1,0 +1,32 @@
+This is the README file for the task of extracting numbers with an orange color background from the given JSON-like text using Python and regular expressions.
+
+# Extract Numbers with Orange Color Background
+
+## Task Description
+The goal of this task is to extract numbers associated with the "id" keys in a JSON-like text using Python and regular expressions. The provided Python script utilizes the `re` module to achieve this.
+
+## Requirement 
+
+1. **Install Python:**
+   Ensure that you have Python installed on your system. If not, you can download it from the [official Python website](https://www.python.org/downloads/).
+
+2. **Install Visual Studio Code (Optional):**
+   While not required, you can use Visual Studio Code for a convenient development environment. Download and install it from the [official VSCode website](https://code.visualstudio.com/).
+
+3. **Run the Script:**
+   - Open a terminal in the directory containing the Python script (`extract_numbers.py`).
+   - Run the script using the command:
+     ```bash
+     python extract_numbers.py
+     ```
+     or for Python 3:
+     ```bash
+     python3 extract_numbers.py
+     ```
+
+4. **View Output:**
+   The script will print a list of numbers extracted from the JSON-like text. Each number is represented as a string in the list.
+
+## Sample Output
+```python
+['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '648', '649', '650', '651', '652', '653']
